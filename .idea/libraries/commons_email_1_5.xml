@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="commons-email-1.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Downloads/commons-email-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/postgresql-42.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mailapi-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mail-1.4.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/activation-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/smtp-1.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

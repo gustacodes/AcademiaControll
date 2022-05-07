@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.academia.controller.AtrasadosController">
+   <children>
+      <Label layoutX="190.0" layoutY="14.0" text="ALUNOS EM ATRASO">
+         <font>
+            <Font name="Tahoma Bold" size="21.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblAlunosAtrasados" layoutX="34.0" layoutY="48.0" prefHeight="286.0" prefWidth="530.0">
+        <columns>
+          <TableColumn fx:id="matricula" prefWidth="75.20001220703125" text="Matrícula" />
+          <TableColumn fx:id="name" prefWidth="109.5999755859375" text="Aluno" />
+            <TableColumn fx:id="contat" prefWidth="106.39996337890625" text="Contato" />
+            <TableColumn fx:id="mensal" prefWidth="92.79998779296875" text="Mensalidade" />
+            <TableColumn fx:id="situacao" prefWidth="78.39996337890625" text="Estado" />
+            <TableColumn fx:id="diasAtraso" prefWidth="67.20001220703125" text="Dias" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
