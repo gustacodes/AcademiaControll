@@ -18,7 +18,7 @@ public class ConexaoDB {
     private static String url = "jdbc:postgresql://localhost:5432/LGC";
     private static String driver = "org.postgresql.Driver";
     private static String usuario = "postgres";
-    private static String senha = "15421542";
+    private static String senha = "*********";
 
     public static Connection getConnection() {
 
